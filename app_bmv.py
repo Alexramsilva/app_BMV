@@ -172,7 +172,7 @@ st.markdown("""
         background-color:  #D666F2;
     }
     .css-1d391kg {
-        color:  #faf7f8;
+        color:  #000000;
     }
 </style>
 """, unsafe_allow_html=True)

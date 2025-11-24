@@ -12,6 +12,8 @@ import pandas as pd
 import csv
 from tradingview_ta import TA_Handler, Interval
 
+st.image("test.gif")
+
 # ---------------------------------------
 #  Diccionario de acciones (tu lista)
 # ---------------------------------------

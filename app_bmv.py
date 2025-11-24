@@ -156,7 +156,7 @@ if st.button("Ejecutar Análisis Técnico del Mercado"):
     # Descargar CSV
     csv_data = df_resultados.to_csv(index=False, quoting=csv.QUOTE_NONNUMERIC)
     st.download_button(
-        label="💾 Descargar CSV",
+        label="Descargar CSV",
         data=csv_data,
         file_name="El_mercado_es_tuyo.csv",
         mime="text/csv"
@@ -164,3 +164,17 @@ if st.button("Ejecutar Análisis Técnico del Mercado"):
 
 else:
     st.info("Haz clic en el botón para analizar las acciones.")
+
+# Personalización de diseño
+st.markdown("""
+<style>
+    .stApp {
+        background-color:  #B80845;
+    }
+    .css-1d391kg {
+        color:  #faf7f8;
+    }
+</style>
+""", unsafe_allow_html=True)
+
+# -----------------------------------------------------

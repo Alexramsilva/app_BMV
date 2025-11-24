@@ -124,7 +124,7 @@ st.write("Analiza automáticamente todas las emisoras listadas en México.")
 if st.button("Ejecutar Análisis Técnico del Mercado"):
     resultados = []
 
-    with st.spinner("Analizando acciones… puede tardar unos segundos,mientras tómate un cafecito.  "):
+    with st.spinner("Analizando acciones… puede tardar unos segundos, mientras tómate un cafecito."):
         for symbol, config in acciones.items():
             try:
                 handler = TA_Handler(
@@ -153,7 +153,7 @@ if st.button("Ejecutar Análisis Técnico del Mercado"):
     st.success("✔ Análisis completado")
 
     # Mostrar datos
-    st.dataframe(df_resultados)
+    st.dataframe(df_resultados[["Simbolo", "Tendencia"]])
 
     # Descargar CSV
     csv_data = df_resultados.to_csv(index=False, quoting=csv.QUOTE_NONNUMERIC)

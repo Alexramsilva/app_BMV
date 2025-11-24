@@ -153,7 +153,7 @@ if st.button("Ejecutar Análisis Técnico del Mercado"):
     st.success("✔ Análisis completado")
 
     # Mostrar datos
-    st.dataframe(df_resultados[["Simbolo", "Tendencia"]])
+    st.dataframe(df_resultados["Simbolo", "Tendencia"])
 
     # Descargar CSV
     csv_data = df_resultados.to_csv(index=False, quoting=csv.QUOTE_NONNUMERIC)

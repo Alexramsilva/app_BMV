@@ -109,7 +109,7 @@ acciones = {
     'WALMEX': {'screener': 'mexico', 'exchange': 'BMV'},
     'FMTY/14': {'screener': 'mexico', 'exchange': 'BMV'},
     'ACWI': {'screener': 'mexico', 'exchange': 'BMV'},
-    'IAU': {'screener': 'mexico', 'exchange': 'BMV'},
+    #'IAU': {'screener': 'mexico', 'exchange': 'BMV'},
 }
 
 # ---------------------------------------------------------------------------------

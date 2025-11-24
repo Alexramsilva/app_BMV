@@ -169,7 +169,7 @@ else:
 st.markdown("""
 <style>
     .stApp {
-        background-color:  #B80845;
+        background-color:  #D666F2;
     }
     .css-1d391kg {
         color:  #faf7f8;

@@ -118,7 +118,7 @@ acciones = {
 
 st.title("*El Mercado es Tuyo* — Análisis Técnico Automático")
 
-st.write("Analiza automáticamente todas las emisoras listadas en México.")
+st.write("Analiza automáticamente las emisoras más importantes, listadas en la BMV (México).")
 
 # Botón para ejecutar análisis
 if st.button("Ejecutar Análisis Técnico del Mercado"):

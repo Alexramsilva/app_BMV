@@ -116,9 +116,9 @@ acciones = {
 # STREAMLIT APP
 # ---------------------------------------------------------------------------------
 
-st.title("*El Mercado es Tuyo* — Análisis Técnico Automático")
+st.title("*The Market is Yours* — Automated Technical Analysis")
 
-st.write("Analiza automáticamente las emisoras más importantes, listadas en la BMV (México).")
+st.write("Automatically analyze the most relevant stocks listed on the BMV (Mexico)")
 
 # Botón para ejecutar análisis
 if st.button("Ejecutar Análisis Técnico del Mercado"):

@@ -12,7 +12,7 @@ import pandas as pd
 import csv
 from tradingview_ta import TA_Handler, Interval
 
-st.image("test.gif")
+st.image("UNRC.svg", width=300, caption="Universidad Nacional Rosario Castellanos" )
 
 # ---------------------------------------
 #  Diccionario de acciones (tu lista)
@@ -116,9 +116,10 @@ acciones = {
 # STREAMLIT APP
 # ---------------------------------------------------------------------------------
 
-st.title("*The Market is Yours* — Automated Technical Analysis")
+st.title("*Licenciatura en Contaduría y Finanzas UNRC")
+st.write("Reto Actinver 2026")
 
-st.write("Automatically analyze the most relevant stocks listed on the BMV (Mexico)")
+st.write("Automatically analyze the most relevant stocks listed on the BMV (México)")
 
 # Botón para ejecutar análisis
 if st.button("Ejecutar Análisis Técnico del Mercado"):

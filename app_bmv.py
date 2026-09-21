@@ -116,8 +116,8 @@ acciones = {
 # STREAMLIT APP
 # ---------------------------------------------------------------------------------
 
-st.title("*Licenciatura en Contaduría y Finanzas UNRC")
-st.write("Reto Actinver 2026")
+st.title("Licenciatura en Contaduría y Finanzas UNRC")
+st.subheader("Reto Actinver 2026")
 
 st.write("Automatically analyze the most relevant stocks listed on the BMV (México)")
 

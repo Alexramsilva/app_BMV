@@ -108,8 +108,8 @@ acciones = {
     'VOLAR/A': {'screener': 'mexico', 'exchange': 'BMV'},
     'WALMEX': {'screener': 'mexico', 'exchange': 'BMV'},
     'FMTY/14': {'screener': 'mexico', 'exchange': 'BMV'},
-    'ACWI': {'screener': 'mexico', 'exchange': 'BMV'},
-    #'IAU': {'screener': 'mexico', 'exchange': 'BMV'},
+    'FUNO/11': {'screener': 'mexico', 'exchange': 'BMV'},
+    'DANHOS/13': {'screener': 'mexico', 'exchange': 'BMV'},
 }
 
 # ---------------------------------------------------------------------------------

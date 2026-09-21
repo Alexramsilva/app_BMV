@@ -22,7 +22,7 @@ acciones = {
     'ACCELSA/B': {'screener': 'mexico', 'exchange': 'BMV'},
     'ACTINVR/B': {'screener': 'mexico', 'exchange': 'BMV'},
     'AGUA': {'screener': 'mexico', 'exchange': 'BMV'},
-    'ALFA/A': {'screener': 'mexico', 'exchange': 'BMV'},
+    'AGUILAS/CPO': {'screener': 'mexico', 'exchange': 'BMV'},
     'ALPEK/A': {'screener': 'mexico', 'exchange': 'BMV'},
     'ALSEA': {'screener': 'mexico', 'exchange': 'BMV'},
     'AMX/B': {'screener': 'mexico', 'exchange': 'BMV'},
